@@ -1,193 +1,201 @@
-"""
-Technical Indicators for ForexMind
-Pure Python — no TA-Lib dependency needed
-"""
+import json
+from typing import Dict, List
+import logging
 
-import math
-from typing import List
+logger = logging.getLogger(__name__)
 
-
-def calculate_rsi(closes: List[float], period: int = 14) -> float:
-    """Calculate RSI."""
-    if len(closes) < period + 1:
-        return 50.0
-    deltas = [closes[i] - closes[i-1] for i in range(1, len(closes))]
-    gains  = [d if d > 0 else 0 for d in deltas[-period:]]
-    losses = [-d if d < 0 else 0 for d in deltas[-period:]]
-    avg_gain = sum(gains) / period
-    avg_loss = sum(losses) / period
-    if avg_loss == 0:
-        return 100.0
-    rs = avg_gain / avg_loss
-    return round(100 - (100 / (1 + rs)), 2)
-
-
-def calculate_ema(closes: List[float], period: int) -> float:
-    """Calculate EMA."""
-    if len(closes) < period:
-        return closes[-1] if closes else 0
-    k = 2 / (period + 1)
-    ema = sum(closes[:period]) / period
-    for price in closes[period:]:
-        ema = price * k + ema * (1 - k)
-    return round(ema, 5)
-
-
-def calculate_macd(closes: List[float],
-                   fast: int = 12, slow: int = 26, signal: int = 9) -> dict:
-    """Calculate MACD, Signal, and Histogram."""
-    if len(closes) < slow + signal:
-        return {"macd": 0, "signal": 0, "histogram": 0}
-
-    ema_fast   = calculate_ema(closes, fast)
-    ema_slow   = calculate_ema(closes, slow)
-    macd_line  = round(ema_fast - ema_slow, 6)
-
-    # Signal line = EMA of MACD values
-    macd_values = []
-    for i in range(signal + 10):
-        idx = -(signal + 10 - i)
-        subset = closes[:idx] if idx < 0 else closes
-        ef = calculate_ema(subset, fast)
-        es = calculate_ema(subset, slow)
-        macd_values.append(ef - es)
-
-    signal_line = calculate_ema(macd_values, signal)
-    histogram   = round(macd_line - signal_line, 6)
-
-    return {
-        "macd":      macd_line,
-        "signal":    round(signal_line, 6),
-        "histogram": histogram,
+def confluence_score(indicators_h1: Dict, indicators_h4: Dict, indicators_d1: Dict = None) -> Dict:
+    """
+    Multi-timeframe confluence scoring.
+    Checks if H1, H4, and D1 (optional) indicators agree on the same direction.
+    
+    Args:
+        indicators_h1: H1 indicators {rsi, macd, trend, etc}
+        indicators_h4: H4 indicators {rsi, macd, trend, etc}
+        indicators_d1: D1 indicators (optional)
+    
+    Returns:
+        {
+            "confluence_score": 0-100,
+            "alignment": "strong" | "moderate" | "weak",
+            "h1_bias": "bullish" | "bearish" | "neutral",
+            "h4_bias": "bullish" | "bearish" | "neutral",
+            "d1_bias": "bullish" | "bearish" | "neutral" (if provided),
+            "position_size_factor": 0.5-1.0,  # Risk multiplier
+            "confidence_adjustment": -20 to +20  # Confidence modifier
+        }
+    """
+    
+    # Get bias from each timeframe
+    h1_bias = _get_timeframe_bias(indicators_h1)
+    h4_bias = _get_timeframe_bias(indicators_h4)
+    d1_bias = _get_timeframe_bias(indicators_d1) if indicators_d1 else None
+    
+    # Count agreements
+    total_frames = 2
+    agreements = 0
+    
+    if h1_bias == h4_bias and h1_bias != "neutral":
+        agreements += 2  # Strong agreement
+    elif h1_bias == h4_bias:
+        agreements += 1  # Weak agreement (both neutral)
+    else:
+        agreements -= 1  # Disagreement
+    
+    if indicators_d1:
+        total_frames = 3
+        if d1_bias == h1_bias == h4_bias and h1_bias != "neutral":
+            agreements += 3  # All three agree
+        elif d1_bias == h1_bias or d1_bias == h4_bias:
+            agreements += 1
+        else:
+            agreements -= 2  # D1 disagrees with both
+    
+    # Calculate confluence score (0-100)
+    # Perfect agreement = 100
+    # Strong disagreement = 0
+    max_agreement = 5 if indicators_d1 else 2
+    confluence = max(0, min(100, int((agreements / max_agreement) * 100)))
+    
+    # Determine alignment quality
+    if confluence >= 80:
+        alignment = "strong"
+        position_size_factor = 1.0  # Full position
+        confidence_adjustment = +20
+    elif confluence >= 60:
+        alignment = "moderate"
+        position_size_factor = 0.75  # 75% position
+        confidence_adjustment = +10
+    else:
+        alignment = "weak"
+        position_size_factor = 0.5  # 50% position (reduced risk)
+        confidence_adjustment = -20
+    
+    result = {
+        "confluence_score": confluence,
+        "alignment": alignment,
+        "h1_bias": h1_bias,
+        "h4_bias": h4_bias,
+        "position_size_factor": position_size_factor,
+        "confidence_adjustment": confidence_adjustment,
+        "analysis": f"Confluence {confluence}% - {alignment} alignment. Position size: {position_size_factor*100}%"
     }
+    
+    if indicators_d1:
+        result["d1_bias"] = d1_bias
+    
+    logger.info(f"Confluence Score: {confluence}% | H1:{h1_bias} H4:{h4_bias} | Factor: {position_size_factor}")
+    return result
 
 
-def calculate_bollinger_bands(closes: List[float],
-                               period: int = 20, std_dev: float = 2) -> dict:
-    """Calculate Bollinger Bands."""
-    if len(closes) < period:
-        last = closes[-1] if closes else 0
-        return {"upper": last, "middle": last, "lower": last, "width": 0}
+def _get_timeframe_bias(indicators: Dict) -> str:
+    """
+    Determine bullish/bearish/neutral bias from indicators.
+    
+    Scoring:
+    - RSI > 60: bullish, RSI < 40: bearish
+    - MACD positive: bullish, negative: bearish
+    - EMA slope positive: bullish, negative: bearish
+    - Support/Resistance breaks: directional
+    """
+    
+    if not indicators:
+        return "neutral"
+    
+    bullish_points = 0
+    bearish_points = 0
+    total_indicators = 0
+    
+    # RSI Analysis (30-70 scale)
+    if "rsi" in indicators:
+        rsi = indicators["rsi"]
+        total_indicators += 1
+        if rsi > 65:
+            bullish_points += 2
+        elif rsi > 55:
+            bullish_points += 1
+        elif rsi < 35:
+            bearish_points += 2
+        elif rsi < 45:
+            bearish_points += 1
+    
+    # MACD Analysis
+    if "macd" in indicators:
+        macd = indicators["macd"]
+        total_indicators += 1
+        if isinstance(macd, dict):
+            if macd.get("histogram", 0) > 0:
+                bullish_points += 1.5
+            elif macd.get("histogram", 0) < 0:
+                bearish_points += 1.5
+        else:
+            if macd > 0:
+                bullish_points += 1.5
+            else:
+                bearish_points += 1.5
+    
+    # EMA Slope (trend direction)
+    if "ema_trend" in indicators:
+        trend = indicators["ema_trend"]
+        total_indicators += 1
+        if trend == "uptrend" or trend == "bullish":
+            bullish_points += 2
+        elif trend == "downtrend" or trend == "bearish":
+            bearish_points += 2
+    
+    # Support/Resistance Breaks
+    if "near_support" in indicators:
+        total_indicators += 0.5
+        bearish_points += 0.5
+    if "near_resistance" in indicators:
+        total_indicators += 0.5
+        bullish_points += 0.5
+    
+    # ADX (Trend Strength)
+    if "adx" in indicators:
+        adx = indicators["adx"]
+        total_indicators += 0.5
+        if adx > 30:  # Strong trend
+            if bullish_points > bearish_points:
+                bullish_points += 1
+            elif bearish_points > bullish_points:
+                bearish_points += 1
+    
+    # Bollinger Bands Position
+    if "bb_position" in indicators:
+        bb_pos = indicators["bb_position"]
+        total_indicators += 0.5
+        if bb_pos == "upper":
+            bullish_points += 1
+        elif bb_pos == "lower":
+            bearish_points += 1
+    
+    # Determine bias
+    if total_indicators == 0:
+        return "neutral"
+    
+    net_score = bullish_points - bearish_points
+    strength = abs(net_score) / total_indicators
+    
+    if net_score > 0:
+        return "bullish"
+    elif net_score < 0:
+        return "bearish"
+    else:
+        return "neutral"
 
-    recent = closes[-period:]
-    middle = sum(recent) / period
-    variance = sum((p - middle) ** 2 for p in recent) / period
-    std  = math.sqrt(variance)
-    upper = round(middle + std_dev * std, 5)
-    lower = round(middle - std_dev * std, 5)
-    width = round(upper - lower, 5)
 
-    return {
-        "upper":  upper,
-        "middle": round(middle, 5),
-        "lower":  lower,
-        "width":  width,
-        "pct_b":  round((closes[-1] - lower) / (width if width > 0 else 1), 3)
-    }
-
-
-def calculate_atr(highs: List[float], lows: List[float],
-                  closes: List[float], period: int = 14) -> float:
-    """Calculate Average True Range."""
-    if len(closes) < period + 1:
-        return 0.0
-    trs = []
-    for i in range(1, len(closes)):
-        tr = max(
-            highs[i] - lows[i],
-            abs(highs[i] - closes[i-1]),
-            abs(lows[i]  - closes[i-1])
-        )
-        trs.append(tr)
-    return round(sum(trs[-period:]) / period, 5)
-
-
-def calculate_support_resistance(highs: List[float],
-                                  lows: List[float],
-                                  closes: List[float]) -> dict:
-    """Find key support and resistance levels."""
-    if not closes:
-        return {"support": 0, "resistance": 0}
-
-    recent_high = max(highs[-20:]) if len(highs) >= 20 else max(highs)
-    recent_low  = min(lows[-20:])  if len(lows)  >= 20 else min(lows)
-    current     = closes[-1]
-
-    # Simple pivot points
-    pivot      = round((recent_high + recent_low + current) / 3, 5)
-    resistance = round(2 * pivot - recent_low,  5)
-    support    = round(2 * pivot - recent_high, 5)
-
-    return {
-        "pivot":      pivot,
-        "resistance": resistance,
-        "support":    support,
-        "recent_high": round(recent_high, 5),
-        "recent_low":  round(recent_low, 5),
-    }
-
-
-def calculate_stochastic(highs: List[float], lows: List[float],
-                          closes: List[float], k_period: int = 14) -> dict:
-    """Calculate Stochastic Oscillator."""
-    if len(closes) < k_period:
-        return {"k": 50, "d": 50}
-
-    recent_high = max(highs[-k_period:])
-    recent_low  = min(lows[-k_period:])
-    rng = recent_high - recent_low
-
-    k = round(((closes[-1] - recent_low) / rng * 100) if rng > 0 else 50, 2)
-
-    # D = 3-period SMA of K
-    k_values = []
-    for i in range(3):
-        idx = -(3 - i)
-        h = max(highs[idx-k_period:idx]) if len(highs) >= k_period else recent_high
-        l = min(lows[idx-k_period:idx])  if len(lows)  >= k_period else recent_low
-        r = h - l
-        k_val = ((closes[idx] - l) / r * 100) if r > 0 else 50
-        k_values.append(k_val)
-
-    d = round(sum(k_values) / 3, 2)
-    return {"k": k, "d": d}
-
-
-def get_all_indicators(candles: list) -> dict:
-    """Calculate all indicators from a candle list."""
-    if not candles or len(candles) < 30:
-        return {}
-
-    closes = [c["close"] for c in candles]
-    highs  = [c["high"]  for c in candles]
-    lows   = [c["low"]   for c in candles]
-
-    rsi   = calculate_rsi(closes)
-    ema9  = calculate_ema(closes, 9)
-    ema21 = calculate_ema(closes, 21)
-    ema50 = calculate_ema(closes, 50)
-    macd  = calculate_macd(closes)
-    bb    = calculate_bollinger_bands(closes)
-    atr   = calculate_atr(highs, lows, closes)
-    sr    = calculate_support_resistance(highs, lows, closes)
-    stoch = calculate_stochastic(highs, lows, closes)
-
-    current = closes[-1]
-    trend = "BULLISH" if ema9 > ema21 > ema50 else \
-            "BEARISH" if ema9 < ema21 < ema50 else "MIXED"
-
-    return {
-        "current_price": current,
-        "trend":         trend,
-        "rsi":           rsi,
-        "ema_9":         ema9,
-        "ema_21":        ema21,
-        "ema_50":        ema50,
-        "macd":          macd,
-        "bollinger":     bb,
-        "atr":           atr,
-        "support_resistance": sr,
-        "stochastic":    stoch,
-        "price_vs_ema9":  round(((current - ema9) / ema9) * 100, 3),
-        "price_vs_ema21": round(((current - ema21) / ema21) * 100, 3),
-    }
+def calculate_position_size_with_confluence(base_position: float, confluence_factor: float) -> float:
+    """
+    Adjust position size based on confluence score.
+    
+    Args:
+        base_position: Initial position size in lots
+        confluence_factor: 0.5-1.0 from confluence_score()
+    
+    Returns:
+        Adjusted position size in lots
+    """
+    adjusted = base_position * confluence_factor
+    logger.info(f"Position size adjusted: {base_position} → {adjusted} (factor: {confluence_factor})")
+    return adjusted
