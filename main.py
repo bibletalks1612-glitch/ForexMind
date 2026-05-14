@@ -1,5 +1,5 @@
 """
-ForexMind - Main Orchestrator (ENHANCED)
+ForexMind - Main Orchestrator with Session Filter (ENHANCED)
 Analyzes forex pairs and places trades on MT5 demo with dynamic position sizing.
 
 Usage:
@@ -33,11 +33,24 @@ from agents.researchers import run_debate
 from agents.execution import run_execution_pipeline
 from memory.manager import MemoryManager
 
+# Import new enhancements
+try:
+    from utils.session import should_trade, get_session_info
+    SESSION_FILTER_AVAILABLE = True
+except ImportError:
+    SESSION_FILTER_AVAILABLE = False
+
+try:
+    from utils.calendar import is_safe_to_trade as check_calendar
+    CALENDAR_FILTER_AVAILABLE = True
+except ImportError:
+    CALENDAR_FILTER_AVAILABLE = False
+
 
 def print_header():
     print("")
     print("=" * 60)
-    print("  ForexMind AI Trading Bot (Enhanced)")
+    print("  ForexMind AI Trading Bot (Enhanced v2)")
     print(f"  Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
@@ -56,6 +69,24 @@ async def analyze_pair(pair, rounds, llm, fetcher, executor, telegram, memory):
     Returns the final decision dict or None on failure.
     """
     print_separator(f"Analyzing {pair}")
+
+    # -- ENHANCEMENT 1: Session Filter Check ----------------------------------
+    if SESSION_FILTER_AVAILABLE:
+        ok, reason = should_trade(pair)
+        if not ok:
+            print(f"  [Main] {reason}")
+            if telegram.enabled:
+                telegram.send(f"⏭️ Skipping {pair}: {reason}")
+            return None
+
+    # -- ENHANCEMENT 3: Calendar/News Filter ----------------------------------
+    if CALENDAR_FILTER_AVAILABLE:
+        safe, reason = check_calendar(pair, hours_ahead=1)
+        if not safe:
+            print(f"  [Main] {reason}")
+            if telegram.enabled:
+                telegram.send(f"📰 News blackout {pair}: {reason}")
+            return None
 
     # -- Step 1: Check for existing open position -----------------------------
     existing = executor.get_open_positions(pair)
@@ -149,8 +180,8 @@ async def analyze_pair(pair, rounds, llm, fetcher, executor, telegram, memory):
                 pair=pair,
                 action=action,
                 size=size,
-                sl=decision.get("sl", 0),
-                tp=decision.get("tp", 0),
+                sl=decision.get("stop_loss", 0),
+                tp=decision.get("take_profit", 0),
             )
             decision["order_result"] = order_result
             if order_result.get("success"):
@@ -164,9 +195,7 @@ async def analyze_pair(pair, rounds, llm, fetcher, executor, telegram, memory):
     try:
         telegram.send_signal(
             pair=pair,
-            action=action,
-            confidence=decision.get("confidence", 0),
-            reasoning=decision.get("reasoning", ""),
+            decision=decision,
         )
     except Exception as e:
         print(f"  [Main] Telegram warning: {e}")
@@ -190,6 +219,14 @@ async def main():
     args = parser.parse_args()
 
     print_header()
+
+    # -- Show session info if available
+    if SESSION_FILTER_AVAILABLE:
+        try:
+            session_info = get_session_info()
+            print(f"  [Session] Current: {session_info['session_name']} ({session_info['volume']})")
+        except:
+            pass
 
     # -- Initialize components ------------------------------------------------
     print_separator("Initializing")
