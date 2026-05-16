@@ -157,7 +157,7 @@ async def analyze_pair(pair, rounds, llm, fetcher, executor, telegram, memory):
     # -- Step 7: Execution pipeline (Trader -> Risk Mgr -> Portfolio Mgr) -----
     print(f"  [Main] Running execution pipeline...")
     try:
-        decision = await run_execution_pipeline(pair, analysis, debate_result, history, llm)
+        decision = await run_execution_pipeline(pair, analysis, debate_result, history, llm, memory=memory)
         print(f"    Action:     {decision.get('action', 'N/A')}")
         print(f"    Confidence: {decision.get('confidence', 'N/A')}%")
         print(f"    Position:   {decision.get('position_size', 'N/A')} lots")
@@ -176,12 +176,18 @@ async def analyze_pair(pair, rounds, llm, fetcher, executor, telegram, memory):
         else:
             print(f"  [Main] Placing {action} order for {pair}...")
             size = decision.get("position_size", DEFAULT_LOT_SIZE)
+            # Calculate ATR-based SL/TP from current indicators
+            atr_value = 0.0
+            if current_indicators and current_indicators.get("atr"):
+                atr_value = float(current_indicators["atr"])
+
             order_result = executor.place_order(
                 pair=pair,
                 action=action,
                 size=size,
                 sl=decision.get("stop_loss", 0),
                 tp=decision.get("take_profit", 0),
+                atr=atr_value,   # ATR-based SL/TP — adapts to volatility
             )
             decision["order_result"] = order_result
             if order_result.get("success"):

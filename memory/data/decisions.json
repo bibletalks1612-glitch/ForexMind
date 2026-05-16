@@ -178,5 +178,2145 @@
     "debate_rounds": 2,
     "outcome": "pending",
     "reflection": ""
+  },
+  {
+    "id": 10,
+    "date": "2026-05-15 00:49:32",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "### **XAU/USD Technical Analysis Report**\n\n#### **1. Overall Trend Direction**\n- **H1 (Bearish):** Price below EMA9/21/50, with EMAs in bearish alignment. Bollinger Bands show price near lower band, s",
+      "Fundamental Analyst": "### **XAU/USD Fundamental Analysis (Macro Perspective)**\n\n1. **Interest Rate Differential**: Gold (XAU) is a non-yielding asset, while the USD benefits from Fed policy rates (~5.25-5.50%). The widenin",
+      "Sentiment Analyst": "**XAU/USD Sentiment Analysis (as of latest data)**\n\n1. **Retail Positioning**: IG Client Sentiment shows **~78% retail traders long** (contrarian bearish signal). Heavy retail accumulation near $2,400",
+      "News Analyst": "**XAU/USD Analysis (June 10, 2024)**\n\n1. **Immediate Market-Moving Events**: No major data releases (NFP, CPI, GDP) this week, but **Fed Chair Powell\u2019s testimony (June 11-12)** and **U.S. PPI (June 13"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 11,
+    "date": "2026-05-15 01:11:01",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "### **XAU/USD Technical Analysis Report**\n\n#### **1. Overall Trend Direction**\n- **H1 (Bearish):** Price below all EMAs (9, 21, 50), confirming short-term downtrend.\n- **H4 (Mixed):** Price near EMA50",
+      "Fundamental Analyst": "### **XAU/USD Fundamental Analysis (Macro Perspective)**\n\n1. **Interest Rate Differential**: Gold (XAU) is a non-yielding asset, while the USD benefits from Fed policy rates (~5.25-5.50%). The real yi",
+      "Sentiment Analyst": "**XAU/USD Sentiment Analysis (as of latest data):**\n\n1. **Retail Positioning (Contrarian Signal):** IG Client Sentiment shows **~78% retail traders long**, a strong contrarian bearish signal. Heavy re",
+      "News Analyst": "**XAU/USD Analysis (May 7, 2024)**\n\n1. **Immediate Market-Moving Events**: No major data releases (CPI, NFP, GDP) this week, but **Fed Chair Powell\u2019s speech (May 8, 14:00 ET)** and **FOMC minutes (May"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 12,
+    "date": "2026-05-15 01:14:16",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 70,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.03,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "### **GBP/USD Technical Analysis Report**\n\n#### **1. Overall Trend Direction**\n**Bearish** across all timeframes (H1, H4). Price is below all key EMAs (9, 21, 50), confirming downside momentum.\n\n#### ",
+      "Fundamental Analyst": "### **GBP/USD Fundamental Analysis (May 2026)**\n\n1. **Interest Rate Differential**:\n   The **BoE** is likely nearing the end of its tightening cycle (current rate ~4.50%), with inflation trending towa",
+      "Sentiment Analyst": "**GBP/USD Sentiment Analysis (as of latest data):**\n\n1. **Retail Positioning (Contrarian Signal):** ~68% of retail traders are **long** (IG, OANDA, Saxo data), a bearish contrarian signal. Retail ofte",
+      "News Analyst": "### **GBP/USD Analysis (May 8, 2026)**\n\n1. **Immediate Market-Moving Events**:\n   - **US Jobs Data (May 2)**: Strong NFP (320K vs. 210K exp.) and wage growth (0.4% MoM) reinforced Fed hawkishness, boo"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 13,
+    "date": "2026-05-15 09:57:16",
+    "pair": "EUR_USD",
+    "action": "SELL",
+    "confidence": 70,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.03,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**EUR_USD Technical Analysis Report**\n\n**Overall Trend Direction:**\nThe EUR_USD pair is trending bearishly across both H1 and H4 timeframes. The H1 trend is slightly more bearish, with a stronger down",
+      "Fundamental Analyst": "**EUR/USD Analysis (Macro Perspective)**\n\n**Interest Rate Differential:**\nThe European Central Bank (ECB) has maintained a dovish stance, with interest rates at 4.25% since 2023. In contrast, the Fede",
+      "Sentiment Analyst": "**EUR_USD Sentiment Analysis**\n\n**1. Retail Trader Positioning:**\nAccording to our analysis, 62% of retail traders are long EUR_USD, indicating a slightly bearish contrarian signal.\n\n**2. COT Report I",
+      "News Analyst": "**Immediate Market-Moving Events:**\n\nNo significant market-moving events are scheduled for this week. However, we should keep an eye on the upcoming ECB meeting on June 15th, where the European Centra"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 14,
+    "date": "2026-05-15 09:58:00",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 70,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.03,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**GBP_USD Technical Analysis Report**\n\n1. **Overall Trend Direction**: The trend is bearish across both H1 and H4 timeframes, indicating a strong downtrend.\n2. **Key Support and Resistance Levels**: I",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze GBP/USD from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Bank of England (BoE) has been maintaining a relatively higher interest rat",
+      "Sentiment Analyst": "Analyzing current market sentiment for GBP_USD:\n\n1. Retail trader positioning: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. COT report: Institutional traders are net shor",
+      "News Analyst": "Analyzing recent news, I focus on events affecting GBP/USD. \n\n1. No immediate market-moving events have occurred recently.\n2. Geopolitical risks: The US-Iran tensions, as mentioned in The Times of Ind"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 15,
+    "date": "2026-05-15 09:58:47",
+    "pair": "USD_JPY",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.03,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_JPY**\n\n1. **Overall trend direction**: The trend is BULLISH across both H1 and H4 timeframes, with prices consistently above the EMA50.\n2. **Key support and resistance",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze USD/JPY from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Federal Reserve (Fed) has been maintaining a hawkish stance, with intere",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_JPY:\n\n1. Retail trader positioning: 72% of retail traders are long USD_JPY, indicating a bearish contrarian signal.\n2. COT report: Institutional traders are ",
+      "News Analyst": "Analyzing recent news, the USD/JPY pair is influenced by several factors. \n\n1. Immediate market-moving events: The recent US inflation surge has boosted Treasury yields, supporting the dollar. The nex"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 16,
+    "date": "2026-05-15 09:59:33",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend is bearish on the H1 timeframe, while mixed on the H4 timeframe, indicating a potential short-term downtrend.\n2. **Key",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires understanding the underlying fundamentals of the US economy and the gold market. \n\n1. **Interest Rate Differential**: The Federal Reserve (",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (e.g., rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks are present, as the US and China bega"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 17,
+    "date": "2026-05-15 10:15:59",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is bearish on the H1 timeframe, while mixed on the H4 timeframe, indicating a potential short-term downtrend",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (e.g., rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks, however, are present, particularly w"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 18,
+    "date": "2026-05-15 10:32:27",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 70,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.03,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend is bearish across both H1 and H4 timeframes, indicating a strong downward momentum.\n2. **Key Support and Resistance Le",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires considering the underlying economies of the US (USD) and the gold market (XAU). \n\n1. **Interest Rate Differential**: The Federal Reserve (F",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD, I observe:\n\n1. Retail trader positioning: 72% are long, indicating a bearish contrarian signal.\n2. COT report: Institutional traders are net short, with",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events or central bank communications that directly impact XAU/USD. Geopolitical risks are also minimal in the provided headlines. \n\nHowever, "
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 19,
+    "date": "2026-05-15 10:44:09",
+    "pair": "EUR_USD",
+    "action": "SELL",
+    "confidence": 70,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.03,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: EUR_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Immediate support is at 1.16195",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze the EUR/USD pair from a macroeconomic perspective. \n\n1. The interest rate differential between the European Central Bank (ECB) and the Federal Reserve (Fed) i",
+      "Sentiment Analyst": "As a forex sentiment analyst, I've evaluated the current market sentiment for EUR_USD. \n\n1. Retail trader positioning: 72% of retail traders are long EUR_USD, indicating a bearish contrarian signal.\n2",
+      "News Analyst": "Analyzing recent news, I find no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact EUR_USD. Geopolitical risks, however, are present, particularly with the U"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 20,
+    "date": "2026-05-15 10:44:51",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 80,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.04,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**GBP_USD Technical Analysis Report**\n\n1. **Overall Trend Direction**: The trend is bearish across both H1 and H4 timeframes, indicating a strong downward momentum.\n2. **Key Support and Resistance Lev",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze GBP/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Bank of England (BoE) has been raising interest rates to combat inflation, ",
+      "Sentiment Analyst": "Analyzing current market sentiment for GBP_USD:\n\n1. Retail trader positioning: 72% of retail traders are long, indicating a contrarian bearish signal.\n2. COT report: Institutional traders are net shor",
+      "News Analyst": "Analyzing recent news, I focus on events affecting GBP/USD. \n\n1. No immediate market-moving events have occurred recently, but strong US jobs data has boosted the dollar.\n2. Geopolitical risks, such a"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 21,
+    "date": "2026-05-15 10:45:38",
+    "pair": "USD_JPY",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.03,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_JPY**\n\n1. **Overall trend direction**: The trend is BULLISH across both H1 and H4 timeframes, indicating a strong upward momentum.\n2. **Key support and resistance leve",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze the USD/JPY pair from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Federal Reserve (Fed) has maintained a hawkish stance, with intere",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_JPY:\n\n1. **Retail trader positioning**: 72% of retail traders are long USD_JPY, indicating a contrarian bearish signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, the USD/JPY is influenced by several factors. \n\n1. Immediate market-moving events: The recent US inflation surge has boosted Treasury yields, supporting the dollar. The next key"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 22,
+    "date": "2026-05-15 10:46:15",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes, with prices making lower highs and lower lows.\n2. **Key support and resis",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires understanding the underlying fundamentals of the US economy and the gold market. \n\n1. **Interest Rate Differential**: As gold (XAU) does no",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks, however, are present, particularly with th"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 23,
+    "date": "2026-05-15 11:02:29",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Immediate support is at 4530.81",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks are present, with the Trump-Xi meeting pote"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 24,
+    "date": "2026-05-15 11:18:44",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Immediate support is at 4514.57",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires considering the interest rate differential, economic strength, trade balance, and central bank policies of the United States (USD) and the ",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional traders are ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks are present, particularly with the meeting "
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 25,
+    "date": "2026-05-15 11:50:04",
+    "pair": "EUR_USD",
+    "action": "SELL",
+    "confidence": 70,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.03,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: EUR_USD**\n\n1. **Overall trend direction**: The trend is BEARISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: \n   - Support: 1.16126 (H1), 1.",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze the EUR/USD pair from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The European Central Bank (ECB) has maintained a relatively accommodat",
+      "Sentiment Analyst": "Analyzing current market sentiment for EUR_USD:\n\n1. Retail trader positioning: 72% are long, indicating a contrarian bearish signal.\n2. COT report: Institutional traders are net short, with a slight i",
+      "News Analyst": "Upon reviewing the recent news headlines, I found no direct market-moving events or economic data releases that would immediately impact the EUR/USD currency pair. The news articles appear to be unrel"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 26,
+    "date": "2026-05-15 11:50:39",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 80,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.04,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**GBP_USD Technical Analysis Report**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes, indicating a strong downtrend.\n2. **Key support and resistance levels**: S",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze GBP/USD from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Bank of England (BoE) has maintained a relatively higher interest rate comp",
+      "Sentiment Analyst": "Analyzing current market sentiment for GBP/USD:\n\n1. Retail trader positioning: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. COT report: Institutional traders are net shor",
+      "News Analyst": "Analyzing recent news, I focus on events affecting GBP/USD. \n\n1. No immediate market-moving events are reported, but strong US jobs data has boosted the dollar.\n2. Geopolitical risks, such as US-Iran "
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 27,
+    "date": "2026-05-15 11:51:15",
+    "pair": "USD_JPY",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.03,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_JPY**\n\n1. **Overall trend direction**: The trend is BULLISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: \n   - Support: 157.68634 (H1), ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze USD_JPY from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The US Federal Reserve has maintained a hawkish stance, with interest rates at ",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_JPY:\n\n1. **Retail trader positioning**: 72% of retail traders are long USD_JPY, indicating a contrarian bearish signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, the USD/JPY pair is influenced by several factors. \n\n1. Immediate market-moving events: The recent US inflation surge has boosted Treasury yields, supporting the dollar. The nex"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 28,
+    "date": "2026-05-15 11:51:53",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is bearish across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 4518.8",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional traders are ",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events or relevant central bank communications that directly impact XAU/USD. The provided news headlines are unrelated to economic or financia"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 29,
+    "date": "2026-05-15 12:12:06",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 4515.2",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events affecting XAU/USD. The provided headlines are mostly related to local politics and do not have a direct impact on the currency pair.\n"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 30,
+    "date": "2026-05-15 12:29:45",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 80,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.04,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**GBP_USD Technical Analysis Report**\n\n1. **Overall Trend Direction**: The trend is bearish across both H1 and H4 timeframes, indicating a strong downward momentum.\n2. **Key Support and Resistance Lev",
+      "Fundamental Analyst": "From a macroeconomic perspective, the GBP/USD exchange rate is influenced by several key factors. \n\n1. **Interest rate differential**: The Bank of England (BoE) has been raising interest rates to comb",
+      "Sentiment Analyst": "Analyzing current market sentiment for GBP_USD, I observe:\n\n1. Retail trader positioning: 72% of retail traders are long, indicating a contrarian bearish signal.\n2. COT report: Institutional traders a",
+      "News Analyst": "Analyzing recent news, I focus on the GBP/USD currency pair. \n\n1. Immediate market-moving events: No recent events directly impacting GBP/USD.\n2. Geopolitical risks: The US-Iran tensions (reported on "
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 31,
+    "date": "2026-05-15 12:30:32",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: Key support levels ar",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD involves understanding the dynamics between the US economy and gold as a commodity. Since gold does not have a central bank, we'll focus on the US e",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks are present, particularly the Strait of Hor"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 32,
+    "date": "2026-05-15 12:46:15",
+    "pair": "USD_JPY",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 33,
+    "date": "2026-05-15 12:46:32",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 34,
+    "date": "2026-05-15 13:02:03",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 35,
+    "date": "2026-05-15 13:02:20",
+    "pair": "USD_JPY",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 36,
+    "date": "2026-05-15 13:02:37",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 37,
+    "date": "2026-05-15 13:29:18",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 38,
+    "date": "2026-05-15 13:29:34",
+    "pair": "USD_JPY",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 39,
+    "date": "2026-05-15 13:29:52",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 40,
+    "date": "2026-05-15 13:45:22",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 41,
+    "date": "2026-05-15 13:45:40",
+    "pair": "USD_JPY",
+    "action": "HOLD",
+    "confidence": 50,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 42,
+    "date": "2026-05-15 13:45:58",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 43,
+    "date": "2026-05-15 14:01:31",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 44,
+    "date": "2026-05-15 14:01:49",
+    "pair": "USD_JPY",
+    "action": "BUY",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 45,
+    "date": "2026-05-15 14:02:06",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 46,
+    "date": "2026-05-15 14:17:41",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 47,
+    "date": "2026-05-15 14:18:01",
+    "pair": "USD_JPY",
+    "action": "BUY",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 48,
+    "date": "2026-05-15 14:18:20",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 49,
+    "date": "2026-05-15 14:27:47",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 50,
+    "date": "2026-05-15 15:28:10",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 51,
+    "date": "2026-05-15 15:28:29",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 52,
+    "date": "2026-05-15 16:19:52",
+    "pair": "EUR_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 53,
+    "date": "2026-05-15 16:20:05",
+    "pair": "GBP_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bearish \u2014 BUY blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 54,
+    "date": "2026-05-15 16:20:21",
+    "pair": "USD_JPY",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 55,
+    "date": "2026-05-15 16:20:34",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 56,
+    "date": "2026-05-15 16:35:55",
+    "pair": "GBP_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bearish \u2014 BUY blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 57,
+    "date": "2026-05-15 16:36:09",
+    "pair": "USD_JPY",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 58,
+    "date": "2026-05-15 16:36:21",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 59,
+    "date": "2026-05-15 16:37:55",
+    "pair": "GBP_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bearish \u2014 BUY blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 60,
+    "date": "2026-05-15 16:38:09",
+    "pair": "USD_JPY",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 61,
+    "date": "2026-05-15 16:38:23",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 62,
+    "date": "2026-05-15 16:38:36",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 63,
+    "date": "2026-05-15 16:38:49",
+    "pair": "USD_CAD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 64,
+    "date": "2026-05-15 16:44:00",
+    "pair": "GBP_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bearish \u2014 BUY blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 65,
+    "date": "2026-05-15 16:47:33",
+    "pair": "GBP_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bearish \u2014 BUY blocked",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 66,
+    "date": "2026-05-15 16:47:51",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "[ERROR] No LLM API keys in .env!",
+      "Fundamental Analyst": "[ERROR] No LLM API keys in .env!",
+      "Sentiment Analyst": "[ERROR] No LLM API keys in .env!",
+      "News Analyst": "[ERROR] No LLM API keys in .env!"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 67,
+    "date": "2026-05-15 17:15:18",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 72,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**GBP_USD Technical Analysis Report**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes, indicating a downward momentum.\n2. **Key support and resistance levels**: ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze the GBP/USD pair from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Bank of England (BoE) has been maintaining a relatively higher int",
+      "Sentiment Analyst": "Analyzing current market sentiment for GBP_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional traders are ",
+      "News Analyst": "Analyzing recent news, I focus on the GBP/USD pair. \n\n1. No immediate market-moving events have occurred recently.\n2. Geopolitical risks, such as US-Iran tensions, are supporting the dollar, which may"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 68,
+    "date": "2026-05-15 17:16:09",
+    "pair": "USD_JPY",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_JPY**\n\n1. **Overall trend direction**: The overall trend direction is BULLISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Key support l",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze USD/JPY from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Federal Reserve (Fed) has maintained a hawkish stance, with interest rates ",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_JPY:\n\n1. Retail trader positioning: 72% are long, indicating a bearish contrarian signal.\n2. COT report: Institutional traders are net short, aligning with t",
+      "News Analyst": "Analyzing recent news, the USD/JPY pair is influenced by several factors. \n\n1. Immediate market-moving events: The recent US inflation surge has boosted Treasury yields, supporting the dollar. The nex"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 69,
+    "date": "2026-05-15 17:16:35",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: Key support levels ar",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional traders are ",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU_USD. Geopolitical risks are minimal, with no significant events affec"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 70,
+    "date": "2026-05-15 17:17:03",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 0.7120",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively lower interest ",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a bearish contrarian signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing the provided news headlines, I found no immediate market-moving events or direct references to the AUD/USD currency pair. However, I can assess the overall market sentiment and potential imp"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 71,
+    "date": "2026-05-15 17:19:04",
+    "pair": "USD_CAD",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_CAD**\n\n1. **Overall trend direction**: The trend is BULLISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: \n   - Support: 1.37222 (H1), 1.",
+      "Fundamental Analyst": "As a forex fundamental analyst, I've assessed the USD_CAD pair from a macroeconomic perspective. \n\n1. **Interest rate differential**: The US Federal Reserve has maintained a hawkish stance, with highe",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_CAD, I observe:\n\n1. Retail trader positioning: 72% of retail traders are long USD_CAD, indicating a potential contrarian bearish signal.\n2. COT report: Insti",
+      "News Analyst": "Analyzing recent news, I found no direct market-moving events affecting USD_CAD. However, the article from Crypto Briefing mentions \"Hot inflation data dims Federal Reserve rate cut prospects,\" which "
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 72,
+    "date": "2026-05-15 17:33:53",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Support levels are 4492.5 (H1) ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators like GDP or employme",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. The provided news headlines are largely unrelated to the forex"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 73,
+    "date": "2026-05-15 17:34:22",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**AUD_USD Technical Analysis Report**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: Key support levels are",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively stable interest",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a bearish contrarian signal.\n2. **COT report**: Institutional trad",
+      "News Analyst": "Analyzing the recent news headlines, I found no immediate market-moving events, geopolitical risks, or central bank communications that directly impact AUD/USD. The news headlines appear to be unrelat"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 74,
+    "date": "2026-05-15 17:50:33",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Immediate support is at 4490.46",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires considering the underlying economies of the US (USD) and the gold market (XAU). Since gold is not a country-specific currency, we'll focus ",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD, I observe:\n\n1. Retail trader positioning: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. COT report: Institutional traders a",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (e.g., rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks are minimal, with no significant even"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 75,
+    "date": "2026-05-15 17:51:35",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall Trend Direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 0.71179 (H1), 0.",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively low interest",
+      "Sentiment Analyst": "As a forex sentiment analyst, I've evaluated the current market sentiment for AUD_USD. \n\n1. Retail trader positioning: 72% of retail traders are long AUD_USD, indicating a contrarian bearish signal.\n2",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact AUD_USD. Geopolitical risks are also minimal, with no significant event"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 76,
+    "date": "2026-05-15 18:10:53",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 69,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 70%+ confidence. Got 69%.",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Support levels are 4491.32 (H1)",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires considering the interest rate differential, economic strength, trade balance, and central bank policies. Since XAU represents gold, it does",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing the recent news headlines, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks are also minimal, with the ne"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 77,
+    "date": "2026-05-15 18:14:13",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: \n   - Support: 0.71151 (H1), 0.",
+      "Fundamental Analyst": "As a forex fundamental analyst, I've assessed the AUD/USD pair from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively lo",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD, I observe:\n\n1. Retail trader positioning: 72% are long, indicating a contrarian bearish signal.\n2. COT report: Institutional traders are net short, alig",
+      "News Analyst": "Analyzing the provided news headlines, I found no direct impact on AUD/USD. However, I'll provide an update on the current market environment.\n\nThere are no immediate market-moving events, such as rat"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 78,
+    "date": "2026-05-15 18:32:31",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 71,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: Key support levels ar",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires considering the interest rate differential, economic strength, trade balance, and central bank policies. \n\n1. **Interest Rate Differential*",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional traders are ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks and central bank communications are also ab"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 79,
+    "date": "2026-05-15 18:35:14",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**AUD_USD Technical Analysis Report**\n\n1. **Overall trend direction**: The trend is BEARISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Immediate support is at 0.71181 ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Reserve Bank of Australia (RBA) has maintained a relatively stable cash rat",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD, I observe:\n\n1. Retail trader positioning: 72% of retail traders are long AUD_USD, indicating a potential contrarian bearish signal.\n2. COT report: Insti",
+      "News Analyst": "Upon analyzing recent news headlines, I found no immediate market-moving events or relevant information that directly affects AUD/USD. The provided headlines are unrelated to economic data, central ba"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 80,
+    "date": "2026-05-15 18:51:38",
+    "pair": "EUR_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: EUR_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 1.1604",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll examine the EUR/USD pair from a macroeconomic perspective. \n\n1. **Interest rate differential**: The European Central Bank (ECB) has maintained a relatively dovish ",
+      "Sentiment Analyst": "Analyzing current market sentiment for EUR_USD:\n\n1. Retail trader positioning: 72% of retail traders are long EUR_USD, indicating a contrarian bearish signal.\n2. COT report: Institutional traders are ",
+      "News Analyst": "Analyzing the provided news headlines, there are no immediate market-moving events or direct references to EUR/USD. However, I can assess the overall market sentiment and potential implications.\n\nGeop"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 81,
+    "date": "2026-05-15 18:53:06",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 72,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**GBP_USD Technical Analysis Report**\n\n1. **Overall trend direction**: The trend is BEARISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: \n   - Support: 1.33209 (H1), 1.3",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze GBP/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Bank of England (BoE) has been maintaining a relatively higher interest ",
+      "Sentiment Analyst": "As a forex sentiment analyst, I've evaluated the current market sentiment for GBP_USD. \n\n1. Retail trader positioning: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. COT re",
+      "News Analyst": "Analyzing recent news, I focus on events affecting GBP/USD. \n\n1. No immediate market-moving events have occurred recently, but strong US jobs data has boosted the dollar.\n2. Geopolitical risks, such a"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 82,
+    "date": "2026-05-15 18:54:19",
+    "pair": "USD_JPY",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_JPY**\n\n1. **Overall trend direction**: The trend is BULLISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: On H1, support is at 158.26634 ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze the USD/JPY pair from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Federal Reserve (Fed) has been maintaining a hawkish stance, with ",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_JPY:\n\n1. **Retail trader positioning**: 72% of retail traders are long USD_JPY, indicating a contrarian bearish signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, the USD/JPY pair is influenced by several factors. \n\n1. Immediate market-moving events: The recent US inflation surge has boosted Treasury yields, supporting the dollar. The nex"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 83,
+    "date": "2026-05-15 18:55:52",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Support levels are 0.71221 (H1)",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Reserve Bank of Australia (RBA) has maintained a relatively lower intere",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a bearish contrarian signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact AUD_USD. Geopolitical risks are also minimal, with no significant events "
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 84,
+    "date": "2026-05-15 18:59:24",
+    "pair": "USD_CAD",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_CAD**\n\n1. **Overall Trend Direction**: The trend direction is BULLISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: Key support levels ar",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze the USD_CAD pair from a macroeconomic perspective. \n\n1. **Interest rate differential**: The US Federal Reserve (Fed) has been maintaining a hawkish stance, wi",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_CAD, I observe:\n\n1. Retail trader positioning: 72% are long USD_CAD, indicating a contrarian bearish signal.\n2. COT report: Institutional traders are net sho",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact USD_CAD. Geopolitical risks are minimal, with no significant events affec"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 85,
+    "date": "2026-05-15 19:06:17",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 71,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall trend direction**: The trend is BEARISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Support levels are 4487.84 (H1)",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks are present, with new attacks in Hormuz (May "
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 86,
+    "date": "2026-05-15 19:08:44",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall Trend Direction**: The trend is bearish across both H1 and H4 timeframes, indicating a strong downward momentum.\n2. **Key Support and Resistance Le",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively lower interest ",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a contrarian bearish signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) affecting AUD_USD. Geopolitical risks are minimal, with no direct impact on the currencies. Ho"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 87,
+    "date": "2026-05-15 19:28:54",
+    "pair": "EUR_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: EUR_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes, indicating a downward momentum.\n2. **Key support and resistance levels**:",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze EUR/USD from a macroeconomic perspective. \n\n1. **Interest rate differential**: The European Central Bank (ECB) has been maintaining a dovish stance, keepin",
+      "Sentiment Analyst": "Analyzing current market sentiment for EUR_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long EUR_USD, indicating a contrarian bearish signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, I find no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact EUR/USD. Geopolitical risks and central bank communications are also absen"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 88,
+    "date": "2026-05-15 19:57:43",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**GBP_USD Technical Analysis Report**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes, indicating a downward momentum.\n2. **Key support and resistance levels**: ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze the GBP/USD pair from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Bank of England (BoE) has been raising interest rates to combat in",
+      "Sentiment Analyst": "Analyzing current market sentiment for GBP_USD:\n\n1. Retail trader positioning: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. COT report: Institutional traders are net shor",
+      "News Analyst": "Analyzing recent news, I focus on events affecting GBP/USD. \n\n1. No immediate market-moving events have occurred recently.\n2. Geopolitical risks, such as US-Iran tensions, are supporting the dollar, p"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 89,
+    "date": "2026-05-15 19:58:16",
+    "pair": "USD_JPY",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_JPY**\n\n1. **Overall trend direction**: The trend is BULLISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: \n   - Support: 158.317 (H1), 15",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze USD_JPY from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Federal Reserve (Fed) has been maintaining a hawkish stance, with interest ",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_JPY:\n\n1. **Retail trader positioning**: 72% of retail traders are long USD_JPY, indicating a contrarian bearish signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, the USD/JPY is influenced by several factors. \n\n1. Immediate market-moving events: The recent US inflation surge has boosted Treasury yields, supporting the dollar. The next key"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 90,
+    "date": "2026-05-15 19:58:46",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 71,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Support levels are 4483.66 (H1)",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires considering the interest rate differential, economic strength, trade balance, and central bank policies. \n\n1. **Interest Rate Differential*",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks are minimal, with no significant events aff"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 91,
+    "date": "2026-05-15 19:59:22",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: On H1, support is at 0.71245 an",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively stable interest",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. Retail trader positioning: 72% of retail traders are long AUD_USD, indicating a contrarian bearish signal.\n2. COT report: Institutional traders are ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (1) affecting AUD/USD. Geopolitical risks (2) are minimal, with no significant developments impacting the Australian or US economies."
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 92,
+    "date": "2026-05-15 20:00:04",
+    "pair": "USD_CAD",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_CAD**\n\n1. **Overall Trend Direction**: The trend is BULLISH across both H1 and H4 timeframes, indicating a strong upward momentum.\n2. **Key Support and Resistance Leve",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze the USD_CAD pair from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The US Federal Reserve (Fed) has been maintaining a hawkish stance, wi",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_CAD:\n\n1. **Retail trader positioning**: 72% of retail traders are long USD_CAD, indicating a contrarian bearish signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (e.g., rate decisions, NFP, CPI, GDP releases) that directly impact USD_CAD. Geopolitical risks are also minimal, with no significant"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 93,
+    "date": "2026-05-15 20:16:05",
+    "pair": "USD_JPY",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_JPY**\n\n1. **Overall trend direction**: The trend is BULLISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: On H1, support is at 158.34166 ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze USD_JPY from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The US Federal Reserve (Fed) has been maintaining a hawkish stance, with intere",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_JPY:\n\n1. **Retail trader positioning**: 72% of retail traders are long USD_JPY, indicating a contrarian bearish signal.\n2. **COT report**: Institutional trad",
+      "News Analyst": "Analyzing recent news, the USD/JPY pair is influenced by several factors. \n\n1. Immediate market-moving events: The recent US inflation surge has boosted Treasury yields, supporting the dollar. The nex"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 94,
+    "date": "2026-05-15 20:16:48",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Support levels are 0.71215 (H1)",
+      "Fundamental Analyst": "From a macroeconomic perspective, the AUD/USD exchange rate is influenced by several key factors. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively s",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a contrarian bearish signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact AUD_USD. The news headlines primarily focus on Canadian companies and i"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 95,
+    "date": "2026-05-15 20:32:57",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 71,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 4486.5",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks are minimal, with the China-related news havi"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 96,
+    "date": "2026-05-15 20:33:29",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes, indicating a downward momentum.\n2. **Key support and resistance levels**:",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively lower interest ",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD, I observe:\n\n1. Retail trader positioning: 72% of retail traders are long AUD_USD, indicating a contrarian bearish signal.\n2. COT report: Institutional t",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events affecting AUD/USD. The provided news headlines are largely unrelated to the currency pair, with no mention of rate decisions, NFP, CP"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 97,
+    "date": "2026-05-15 20:49:41",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall Trend Direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 0.71208 (H1), 0.",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze the AUD/USD pair from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Reserve Bank of Australia (RBA) has maintained a relatively low in",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a bearish contrarian signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (e.g., rate decisions, NFP, CPI, GDP releases) that directly impact AUD_USD. Geopolitical risks are also minimal, with no significant"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 98,
+    "date": "2026-05-15 21:05:28",
+    "pair": "GBP_USD",
+    "action": "SELL",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**GBP_USD Technical Analysis Report**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes, indicating a downward momentum.\n2. **Key support and resistance levels**: ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze GBP/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Bank of England (BoE) has been maintaining a relatively higher interest rat",
+      "Sentiment Analyst": "Analyzing current market sentiment for GBP_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a contrarian bearish signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events such as rate decisions, NFP, CPI, or GDP releases. Geopolitical risks are present, with the US-Iran tensions boosting the dollar. The"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 99,
+    "date": "2026-05-15 21:06:08",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 71,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: Key support levels ar",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing the recent news headlines, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. The news headlines are mostly related to company-s"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 100,
+    "date": "2026-05-15 21:06:40",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall trend direction**: The trend is BEARISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: \n   - Support: 0.71198 (H1), 0.",
+      "Fundamental Analyst": "From a macroeconomic perspective, the AUD/USD exchange rate is influenced by several key factors. \n\n1. **Interest rate differential**: The Reserve Bank of Australia (RBA) has historically maintained l",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a bearish contrarian signal.\n2. **COT report**: Institutional trad",
+      "News Analyst": "Analyzing the recent news headlines, I found no immediate market-moving events, geopolitical risks, or central bank communications that directly affect AUD/USD. The news headlines appear to be unrelat"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 101,
+    "date": "2026-05-15 21:07:23",
+    "pair": "USD_CAD",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: USD_CAD**\n\n1. **Overall trend direction**: The trend is BULLISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: \n   - Support: 1.37251 (H1), 1.",
+      "Fundamental Analyst": "From a macroeconomic perspective, the USD_CAD exchange rate is influenced by several key factors. \n\n1. The interest rate differential between the US Federal Reserve (Fed) and the Bank of Canada (BoC) ",
+      "Sentiment Analyst": "Analyzing current market sentiment for USD_CAD:\n\n1. **Retail trader positioning**: 72% of retail traders are long USD_CAD, indicating a contrarian bearish signal.\n2. **COT report**: Institutional trad",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact USD_CAD. Geopolitical risks are also minimal, with no significant events "
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 102,
+    "date": "2026-05-15 21:23:28",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Immediate support is at 0.71176",
+      "Fundamental Analyst": "From a macroeconomic perspective, the AUD/USD exchange rate is influenced by several key factors. \n\n1. Interest rate differential: The Reserve Bank of Australia (RBA) and the Federal Reserve (Fed) hav",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a potential contrarian bearish signal.\n2. **COT report**: Institut",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact AUD_USD. Geopolitical risks are minimal, with no significant events affec"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 103,
+    "date": "2026-05-15 21:39:34",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 4471.88 (H1), 44",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires considering the underlying fundamentals of the US economy and the gold market. \n\n1. **Interest Rate Differential**: The Federal Reserve (Fe",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD, I observe:\n\n1. Retail trader positioning: 72% are long, indicating a bearish contrarian signal.\n2. COT report: Institutional traders are net short, with",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU_USD. Geopolitical risks are present, but the provided news headline"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 104,
+    "date": "2026-05-15 21:40:09",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall Trend Direction**: The overall trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: Key support l",
+      "Fundamental Analyst": "From a macroeconomic perspective, the AUD/USD exchange rate is influenced by several key factors. \n\n1. **Interest rate differential**: The Reserve Bank of Australia (RBA) has historically maintained l",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a contrarian bearish signal.\n2. **COT report**: Institutional trad",
+      "News Analyst": "Analyzing recent news, I find no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact AUD_USD. Geopolitical risks are also minimal, with no significant events a"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 105,
+    "date": "2026-05-15 21:56:24",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Support levels are 0.71206 (H1)",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Reserve Bank of Australia (RBA) has maintained a relatively low interest ra",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a bearish contrarian signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact AUD_USD. Geopolitical risks are also minimal, with no significant events "
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 106,
+    "date": "2026-05-15 22:12:35",
+    "pair": "XAU_USD",
+    "action": "SELL",
+    "confidence": 71,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.01,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: Key support levels ar",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires considering the interest rate differential, economic strength, trade balance, and central bank policies. \n\n1. **Interest Rate Differential*",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional traders are ",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU_USD. Geopolitical risks are minimal, with no significant events affec"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 107,
+    "date": "2026-05-15 22:13:08",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 0.7123",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively lower interest ",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a bearish contrarian signal.\n2. **COT report**: Institutional posi",
+      "News Analyst": "Analyzing recent news, I found no direct impact on AUD/USD. However, I'll provide an update on relevant events:\n\n1. No immediate market-moving events have occurred recently.\n2. Geopolitical risks rema"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 108,
+    "date": "2026-05-15 22:29:23",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "EMA200 H4 bullish \u2014 SELL blocked",
+    "analyst_summary": {
+      "Technical Analyst": "**AUD_USD Technical Analysis Report**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes, indicating a downward momentum.\n2. **Key support and resistance levels**: ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest rate differential**: The Reserve Bank of Australia (RBA) has maintained a relatively stable interest",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. Retail trader positioning: 72% of retail traders are long AUD_USD, indicating a contrarian bearish signal.\n2. COT report: Institutional traders are ",
+      "News Analyst": "Upon analyzing the recent news headlines, I found that none of the provided articles have a direct impact on the AUD/USD currency pair. The news articles are primarily focused on US domestic politics,"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 109,
+    "date": "2026-05-15 22:45:26",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 50,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 65+ confidence. Got 50%.",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall trend direction**: The trend is BEARISH across both H1 and H4 timeframes.\n2. **Key support and resistance levels**: Immediate support is at 4490.8 ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD, I observe:\n\n1. Retail trader positioning: 72% are long, indicating a bearish contrarian signal.\n2. COT report: Institutional traders are net short, with",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks and central bank communications are also ab"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 110,
+    "date": "2026-05-15 22:46:05",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 66,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall Trend Direction**: The trend direction is bearish across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 0.7125",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively stable interest",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a bearish contrarian signal.\n2. **COT report**: Institutional trad",
+      "News Analyst": "Analyzing recent news, I found no immediate market-moving events, geopolitical risks, or central bank communications that directly impact AUD_USD. The provided news headlines are unrelated to economic"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 111,
+    "date": "2026-05-15 23:02:48",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 0,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n**Timeframes: H1, H4**\n\n**Overall Trend Direction:**\nBoth H1 and H4 timeframes indicate a BEARISH trend, with prices trading below the EMA50 and Bollinger Bands",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "**XAU_USD Sentiment Analysis**\n\n**1. Retail Trader Positioning:**\nAccording to our data, 62% of retail traders are long on XAU_USD, indicating a slightly bullish bias. However, this is not a contraria",
+      "News Analyst": "As a professional forex news analyst, I'll analyze the recent news headlines affecting XAU_USD (XAU/USD).\n\n**Immediate Market-Moving Events:**\nThere are no immediate market-moving events affecting XAU"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 112,
+    "date": "2026-05-15 23:03:56",
+    "pair": "AUD_USD",
+    "action": "HOLD",
+    "confidence": 0,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**AUD_USD Technical Analysis Report**\n\n**Overall Trend Direction:**\nBoth the H1 and H4 timeframes indicate a BEARISH trend, with prices trading below their respective EMA50 levels. This suggests a str",
+      "Fundamental Analyst": "rate_limited",
+      "Sentiment Analyst": "**AUD_USD Sentiment Analysis**\n\n**1. Retail Trader Positioning:**\nAccording to the latest data from OANDA, 64.6% of retail traders are long AUD_USD. This is a contrarian signal, suggesting a potential",
+      "News Analyst": "rate_limited"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 113,
+    "date": "2026-05-15 23:20:23",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 0,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: Key support levels ar",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional positioning ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (1) that directly impact XAU/USD. Geopolitical risks (2) are present, but the mentioned news headlines do not significantly affect th"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 114,
+    "date": "2026-05-15 23:21:40",
+    "pair": "AUD_USD",
+    "action": "BUY",
+    "confidence": 75,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0.02,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: AUD_USD**\n\n1. **Overall trend direction**: The trend is bearish across both H1 and H4 timeframes, indicating a downward momentum.\n2. **Key support and resistance levels**:",
+      "Fundamental Analyst": "As a forex fundamental analyst, I analyze AUD/USD from a macroeconomic perspective. \n\n1. **Interest Rate Differential**: The Reserve Bank of Australia (RBA) has maintained a relatively stable interest",
+      "Sentiment Analyst": "Analyzing current market sentiment for AUD_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long AUD_USD, indicating a bearish contrarian signal.\n2. **COT report**: Institutional trad",
+      "News Analyst": "**Immediate Market-Moving Events:**\n\nThere are no immediate market-moving events affecting AUD_USD in the recent news headlines. However, I would like to highlight the upcoming events:\n\n- **Australian"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 115,
+    "date": "2026-05-15 23:38:16",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 0,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n**Timeframe:** Multiple (H1 and H4)\n\n**Overall Trend Direction:** BEARISH\n\nThe bearish trend is confirmed across both timeframes, with H1 and H4 prices trading ",
+      "Fundamental Analyst": "As a forex fundamental analyst, I'll analyze XAU/USD from a macroeconomic perspective. Since XAU represents gold, it doesn't have a central bank or traditional economic indicators. However, I'll compa",
+      "Sentiment Analyst": "**XAU_USD Sentiment Analysis**\n\n**1. Retail Trader Positioning:**\nAccording to our data, 62% of retail traders are long on XAU_USD, indicating a slightly bearish contrarian signal. This suggests that ",
+      "News Analyst": "As a forex news analyst, I've analyzed recent news and events affecting XAU_USD (XAU/USD). Here's my assessment:\n\n**Immediate market-moving events:**\n\n- No major rate decisions, NFP, CPI, or GDP relea"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
+  },
+  {
+    "id": 116,
+    "date": "2026-05-16 00:00:03",
+    "pair": "XAU_USD",
+    "action": "HOLD",
+    "confidence": 50,
+    "stop_loss": "N/A",
+    "take_profit": "N/A",
+    "position_size": 0,
+    "reasoning": "Gold needs 65+ confidence. Got 50%.",
+    "analyst_summary": {
+      "Technical Analyst": "**Technical Analysis Report: XAU_USD**\n\n1. **Overall Trend Direction**: The trend direction is BEARISH across both H1 and H4 timeframes.\n2. **Key Support and Resistance Levels**: \n   - Support: 4491.3",
+      "Fundamental Analyst": "From a macroeconomic perspective, analyzing XAU/USD requires considering the interest rate differential, economic strength, trade balance, and central bank policy stance. \n\n1. **Interest Rate Differen",
+      "Sentiment Analyst": "Analyzing current market sentiment for XAU_USD:\n\n1. **Retail trader positioning**: 72% of retail traders are long, indicating a bearish contrarian signal.\n2. **COT report**: Institutional traders are ",
+      "News Analyst": "Analyzing recent news, there are no immediate market-moving events (rate decisions, NFP, CPI, GDP releases) that directly impact XAU/USD. Geopolitical risks, such as the Iran conflict, may affect Asia"
+    },
+    "debate_rounds": 2,
+    "outcome": "pending",
+    "reflection": ""
   }
 ]

@@ -6,6 +6,39 @@ Pure Python — no TA-Lib dependency needed
 import math
 from typing import List
 
+ # ========== MARKET REGIME DETECTION ==========
+
+def detect_market_regime(ohlcv, period=50):
+    """
+    Detect market regime: TRENDING, RANGING, or VOLATILE.
+    ohlcv: list of candles [time, open, high, low, close, volume]
+    """
+    if not ohlcv or len(ohlcv) < period:
+        return "NEUTRAL"
+    closes = [c[4] for c in ohlcv[-period:]]
+    highs = [c[2] for c in ohlcv[-period:]]
+    lows = [c[3] for c in ohlcv[-period:]]
+    avg_range = sum(highs[i] - lows[i] for i in range(len(highs))) / len(highs)
+    price_change = abs(closes[-1] - closes[0])
+    avg_move = price_change / period
+    # Volatility via returns
+    returns = [(closes[i] - closes[i-1]) / closes[i-1] for i in range(1, len(closes))]
+    if returns:
+        mean_ret = sum(returns) / len(returns)
+        variance = sum((r - mean_ret) ** 2 for r in returns) / len(returns)
+        volatility = (variance ** 0.5) * 100
+    else:
+        volatility = 0
+    if avg_move > avg_range * 0.5:
+        return "TRENDING"
+    elif volatility > 1.5:
+        return "VOLATILE"
+    else:
+        return "RANGING"
+
+def get_regime_multiplier(regime):
+    multipliers = {"TRENDING": 1.15, "RANGING": 0.80, "VOLATILE": 0.70, "NEUTRAL": 1.00}
+    return multipliers.get(regime, 1.00)
 
 def calculate_rsi(closes: List[float], period: int = 14) -> float:
     """Calculate RSI."""

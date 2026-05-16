@@ -1,109 +1,61 @@
-"""
-debug_llm.py
-Run this in D:\algotrade\ForexMind\
-It tests all 4 LLM keys and shows EXACTLY what error each one gives.
+# debug_llm.py -- ForexMind LLM Key Tester
+# Tests all Groq keys + other providers
+# python debug_llm.py
 
-Usage:
-  python debug_llm.py
-"""
-
-import os
-import requests
-import time
+import os, requests, time
 from dotenv import load_dotenv
-
 load_dotenv()
 
-CEREBRAS_KEY = os.getenv("CEREBRAS_API_KEY", "")
-GOOGLE_KEY   = os.getenv("GOOGLE_API_KEY", "")
-DEEPSEEK_KEY = os.getenv("DEEPSEEK_API_KEY", "")
-GROQ_KEY     = os.getenv("GROQ_API_KEY", "")
+GROQ_KEYS = [
+    os.getenv("GROQ_API_KEY",   ""),
+    os.getenv("GROQ_API_KEY_1", ""),
+    os.getenv("GROQ_API_KEY_2", ""),
+    os.getenv("GROQ_API_KEY_3", ""),
+    os.getenv("GROQ_API_KEY_4", ""),
+]
+GROQ_KEYS = list(dict.fromkeys([k.strip() for k in GROQ_KEYS if k.strip()]))
 
-TEST_PROMPT  = "Say the word HELLO and nothing else."
+CEREBRAS_KEY   = os.getenv("CEREBRAS_API_KEY",   "")
+MISTRAL_KEY    = os.getenv("MISTRAL_API_KEY",     "")
+OPENROUTER_KEY = os.getenv("OPENROUTER_API_KEY",  "")
+PROMPT = "Say HELLO and nothing else."
 
 print("\n" + "="*55)
-print("  ForexMind — LLM API Key Debugger")
+print("  ForexMind LLM Key Tester")
 print("="*55)
 
-# ── Helper ─────────────────────────────────────────────
-def openai_test(name, url, key, model):
-    print(f"\n[{name}]")
+def test(name, url, key, model):
+    print(f"\n[{name}]  model={model}")
     if not key:
-        print("  ❌ Key is EMPTY in .env — not set")
+        print("  SKIP -- key not set")
         return
-    print(f"  Key starts with : {key[:12]}...")
+    print(f"  key = {key[:14]}...")
     try:
-        r = requests.post(
-            url,
+        r = requests.post(url,
             headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-            json={
-                "model":      model,
-                "messages":   [{"role": "user", "content": TEST_PROMPT}],
-                "max_tokens": 20,
-            },
-            timeout=20,
-        )
-        print(f"  HTTP Status     : {r.status_code}")
+            json={"model": model, "messages": [{"role":"user","content": PROMPT}], "max_tokens": 10},
+            timeout=20)
+        print(f"  status = {r.status_code}")
         if r.status_code == 200:
-            text = r.json()["choices"][0]["message"]["content"].strip()
-            print(f"  ✅ WORKING — Response: {text}")
+            print(f"  OK -- {r.json()['choices'][0]['message']['content'].strip()}")
         else:
-            print(f"  ❌ FAILED  — Response body: {r.text[:300]}")
+            print(f"  FAIL -- {r.text[:200]}")
     except Exception as e:
-        print(f"  ❌ EXCEPTION: {e}")
+        print(f"  ERROR -- {e}")
 
-# ── 1. Cerebras ────────────────────────────────────────
-openai_test(
-    "Cerebras",
-    "https://api.cerebras.ai/v1/chat/completions",
-    CEREBRAS_KEY,
-    "llama-3.3-70b"
-)
+# Test each Groq key individually
+for i, key in enumerate(GROQ_KEYS, 1):
+    test(f"Groq key {i}", "https://api.groq.com/openai/v1/chat/completions",
+         key, "llama-3.3-70b-versatile")
+    time.sleep(1)
+
+# Test other providers
+test("Cerebras",   "https://api.cerebras.ai/v1/chat/completions",  CEREBRAS_KEY,   "llama3.1-8b")
 time.sleep(1)
-
-# ── 2. Gemini ──────────────────────────────────────────
-print(f"\n[Gemini]")
-if not GOOGLE_KEY:
-    print("  ❌ Key is EMPTY in .env — not set")
-else:
-    print(f"  Key starts with : {GOOGLE_KEY[:12]}...")
-    try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GOOGLE_KEY}"
-        r = requests.post(
-            url,
-            headers={"Content-Type": "application/json"},
-            json={"contents": [{"parts": [{"text": TEST_PROMPT}]}]},
-            timeout=20,
-        )
-        print(f"  HTTP Status     : {r.status_code}")
-        if r.status_code == 200:
-            text = r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
-            print(f"  ✅ WORKING — Response: {text}")
-        else:
-            print(f"  ❌ FAILED  — Response body: {r.text[:300]}")
-    except Exception as e:
-        print(f"  ❌ EXCEPTION: {e}")
+test("Mistral",    "https://api.mistral.ai/v1/chat/completions",    MISTRAL_KEY,    "mistral-large-latest")
 time.sleep(1)
+test("OpenRouter", "https://openrouter.ai/api/v1/chat/completions", OPENROUTER_KEY, "meta-llama/llama-3.2-3b-instruct:free")
 
-# ── 3. DeepSeek ────────────────────────────────────────
-openai_test(
-    "DeepSeek",
-    "https://api.deepseek.com/v1/chat/completions",
-    DEEPSEEK_KEY,
-    "deepseek-chat"
-)
-time.sleep(1)
-
-# ── 4. Groq ────────────────────────────────────────────
-openai_test(
-    "Groq",
-    "https://api.groq.com/openai/v1/chat/completions",
-    GROQ_KEY,
-    "llama3-70b-8192"
-)
-
-# ── Summary ────────────────────────────────────────────
 print("\n" + "="*55)
-print("  Copy the output above and share it — ")
-print("  we'll fix whichever ones show ❌")
+print("  OK = ready   FAIL/SKIP = fix .env")
 print("="*55 + "\n")

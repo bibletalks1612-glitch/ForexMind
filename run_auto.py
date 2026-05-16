@@ -1,45 +1,172 @@
 """
-ForexMind Auto Runner (IMPROVED)
-- Runs analysis every 15 minutes automatically
-- Fixed: Now includes XAU_USD
-- Press Ctrl+C to stop
+ForexMind Auto Runner (UPGRADED)
+Changes vs previous:
+  + Day-end close at 20:00 UTC (avoids swap charges)
+  + 15-min cooldown per pair after trade placed
+  + 6 pairs: EUR, GBP, JPY, XAU, AUD, CAD
 """
 
 import subprocess
+import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 
-PAIRS    = ["EUR_USD", "GBP_USD", "USD_JPY", "XAU_USD"]  # FIXED: Added XAU_USD
-INTERVAL = 15 * 60  # 15 minutes in seconds
+try:
+    import MetaTrader5 as mt5
+    MT5_AVAILABLE = True
+except ImportError:
+    MT5_AVAILABLE = False
 
-print("""
-╔══════════════════════════════════════════════════════╗
-║         ForexMind Auto Runner (IMPROVED)             ║
-║   Runs every 15 minutes — Press Ctrl+C to stop      ║
-╚══════════════════════════════════════════════════════╝
+PAIRS          = ["EUR_USD", "GBP_USD", "USD_JPY", "XAU_USD", "AUD_USD", "USD_CAD"]
+INTERVAL       = 15 * 60   # 15 min between full cycles
+TRADE_COOLDOWN = 15 * 60   # 15 min cooldown per pair after trade
+ROUNDS         = 2
+PAIR_TIMEOUT   = 300        # 5 min max per pair
+MAGIC_NUMBER   = 234000
+
+last_trade_time = {}        # pair → timestamp of last trade
+last_close_hour = -1        # prevent double-close
+
+
+def banner():
+    print("""
+╔══════════════════════════════════════════════════════════╗
+║        ForexMind SUPERBOT Auto Runner                    ║
+║   Cycle: 15 min  |  Trade cooldown: 15 min per pair     ║
+║   Day-end close: 20:00 UTC (avoids swap)                ║
+║   Pairs: EUR, GBP, JPY, XAU, AUD, CAD                   ║
+║   Press Ctrl+C to stop                                   ║
+╚══════════════════════════════════════════════════════════╝
 """)
 
-run_count = 0
 
-while True:
-    run_count += 1
-    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"\n{'='*54}")
-    print(f"  AUTO RUN #{run_count} — {now}")
-    print(f"{'='*54}")
+def close_all_positions_eod():
+    """Close all open positions at 20:00 UTC for day-end."""
+    if not MT5_AVAILABLE:
+        print("  [AutoRunner] MT5 not available for EOD close")
+        return 0
 
-    for pair in PAIRS:
-        print(f"\n  Running {pair}...")
-        subprocess.run([
-            "python", "main.py",
-            "--pair", pair,
-            "--rounds", "2"
-        ])
-        time.sleep(10)  # 10 sec between pairs
+    if not mt5.initialize():
+        return 0
 
-    next_run = datetime.now().strftime("%H:%M:%S")
-    print(f"\n  ✅ Run #{run_count} complete!")
-    print(f"  ⏰ Next run in 15 minutes...")
-    print(f"  💤 Sleeping until next cycle...")
+    positions = mt5.positions_get()
+    if not positions:
+        print("  [AutoRunner] No positions to close at EOD")
+        return 0
 
-    time.sleep(INTERVAL)
+    fm_positions = [p for p in positions if p.magic == MAGIC_NUMBER]
+    if not fm_positions:
+        print("  [AutoRunner] No ForexMind positions to close")
+        return 0
+
+    closed = 0
+    print(f"  [AutoRunner] ⏰ EOD closing {len(fm_positions)} position(s)...")
+    for pos in fm_positions:
+        tick = mt5.symbol_info_tick(pos.symbol)
+        if not tick:
+            continue
+        price      = tick.bid if pos.type == 0 else tick.ask
+        order_type = mt5.ORDER_TYPE_SELL if pos.type == 0 else mt5.ORDER_TYPE_BUY
+        request = {
+            "action":    mt5.TRADE_ACTION_DEAL,
+            "position":  pos.ticket,
+            "symbol":    pos.symbol,
+            "volume":    pos.volume,
+            "type":      order_type,
+            "price":     price,
+            "deviation": 20,
+            "magic":     MAGIC_NUMBER,
+            "comment":   "EOD auto-close 20:00 UTC",
+        }
+        result = mt5.order_send(request)
+        if result and result.retcode == mt5.TRADE_RETCODE_DONE:
+            sign = "+" if pos.profit >= 0 else ""
+            print(f"  [AutoRunner] ✅ Closed {pos.symbol} #{pos.ticket} | P&L: {sign}${pos.profit:.2f}")
+            closed += 1
+        else:
+            retcode = result.retcode if result else "None"
+            print(f"  [AutoRunner] ❌ Failed {pos.symbol}: {retcode}")
+
+    return closed
+
+
+def run_pair(pair: str) -> bool:
+    """Run main.py for one pair. Returns True if completed successfully."""
+    try:
+        result = subprocess.run(
+            [sys.executable, "main.py", "--pair", pair, "--rounds", str(ROUNDS)],
+            capture_output=False,
+            timeout=PAIR_TIMEOUT,
+        )
+        return result.returncode == 0
+    except subprocess.TimeoutExpired:
+        print(f"  ⚠️  {pair} timed out after {PAIR_TIMEOUT//60} min")
+        return False
+    except Exception as e:
+        print(f"  ❌  {pair} error: {e}")
+        return False
+
+
+def main():
+    banner()
+    cycle = 1
+    global last_close_hour
+
+    while True:
+        now_utc = datetime.now(timezone.utc)
+        now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+        # ── Day-end close at 20:00 UTC ──────────────────────────
+        if now_utc.hour == 20 and last_close_hour != 20:
+            print(f"\n{'='*58}")
+            print(f"  ⏰ 20:00 UTC — Day-End Auto Close")
+            print(f"{'='*58}")
+            closed = close_all_positions_eod()
+            if closed > 0:
+                print(f"  ✅ Closed {closed} position(s). Resuming at next cycle.")
+            last_close_hour = 20
+        elif now_utc.hour != 20:
+            last_close_hour = -1   # reset for tomorrow
+
+        print(f"\n{'='*58}")
+        print(f"  CYCLE #{cycle}  —  {now_str}")
+        print(f"{'='*58}")
+
+        for pair in PAIRS:
+            now_ts = time.time()
+
+            # Check trade cooldown
+            if pair in last_trade_time:
+                elapsed = now_ts - last_trade_time[pair]
+                if elapsed < TRADE_COOLDOWN:
+                    remaining = int((TRADE_COOLDOWN - elapsed) / 60)
+                    print(f"  ⏳  {pair} — cooldown {remaining} min remaining")
+                    continue
+
+            print(f"\n  ▶ Analyzing {pair}...")
+            success = run_pair(pair)
+
+            if success:
+                last_trade_time[pair] = time.time()
+                print(f"  ✅  {pair} — run complete. 15-min cooldown starts.")
+            else:
+                print(f"  ➖  {pair} — skipped or error.")
+
+            time.sleep(5)
+
+        cycle += 1
+        next_run = datetime.fromtimestamp(time.time() + INTERVAL)
+        print(f"\n  💤 Cycle #{cycle-1} done. Next: {next_run.strftime('%H:%M:%S')}")
+
+        try:
+            time.sleep(INTERVAL)
+        except KeyboardInterrupt:
+            print("\n\n  ForexMind stopped. Goodbye!\n")
+            break
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n\n  ForexMind stopped. Goodbye!\n")

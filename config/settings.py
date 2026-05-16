@@ -9,11 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ── Forex Pairs ──────────────────────────────────────────────────────
-MAJOR_PAIRS = [
-    "EUR_USD",
-    "GBP_USD",
-    "USD_JPY",
-]
+MAJOR_PAIRS = ["EUR_USD", "GBP_USD", "USD_JPY", "AUD_USD", "USD_CAD"]
 
 # ── Timeframes ────────────────────────────────────────────────────────
 DEFAULT_TIMEFRAMES = ["H1", "H4"]   # H1=1hour, H4=4hour, D1=daily
